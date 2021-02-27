@@ -1,6 +1,23 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+// {
+//   faStacks.forEach(faimg => {
+//     ;<div style={{ display: "flex", alignItems: "center" }}>
+//       <li>key={faimg.id}</li>
+//       <a>
+//         <FontAwesomeIcon
+//           icon={faimg}
+//           style={{
+//             color: "inherit",
+//           }}
+//         />
+//       </a>
+//       ))
+//     </div>
+//   })
+// }
+
+const Card = ({ heading, paragraph, imgUrl, projectLink, faStacks }) => {
   return (
     <div
       className="card"
