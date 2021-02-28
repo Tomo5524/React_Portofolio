@@ -1,4 +1,15 @@
 import React from "react"
+// import { getIcons } from "../stackIcons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faJsSquare,
+  faHtml5,
+  faCss3Alt,
+  faAtom,
+  faBus,
+  faCoins,
+  faDice,
+} from "@fortawesome/free-solid-svg-icons"
 
 // {
 //   faStacks.forEach(faimg => {
@@ -17,7 +28,20 @@ import React from "react"
 //   })
 // }
 
+// style={{
+//         color: localStorage.getItem("theme") === "light" ? "black" : "white",
+//       }}
+
 const Card = ({ heading, paragraph, imgUrl, projectLink, faStacks }) => {
+  const stack_Icons = faStacks.map((item, idx) => (
+    <FontAwesomeIcon
+      key={idx}
+      icon={faAtom}
+      style={{
+        color: "black",
+      }}
+    />
+  ))
   return (
     <div
       className="card"
@@ -39,6 +63,9 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, faStacks }) => {
         >
           Explore
         </a>
+        {/* <div style={{ display: "flex", alignItems: "center" }}>
+          {stack_Icons}
+        </div> */}
       </div>
     </div>
   )

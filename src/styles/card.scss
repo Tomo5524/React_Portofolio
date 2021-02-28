@@ -8,23 +8,36 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  // opacity: 0.8;
 
   .content {
     font-family: "Open Sans";
     text-align: center;
+    font-weight: 700;
     padding: 10px;
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
     cursor: pointer;
     h1 {
+      display: inline-block;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: black;
       font-size: 14px;
       color: white;
+      // opacity: 1;
+      // filter: brightness(1.75);
+      // opacity: 1.5;
     }
     p {
+      background-color: black;
+      padding: 5px;
+      border-radius: 10px;
       font-size: 10px;
       color: white;
       margin-bottom: 20px;
+      // filter: brightness(1.75);
     }
 
     .btn {

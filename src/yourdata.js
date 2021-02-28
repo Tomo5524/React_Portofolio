@@ -5,22 +5,26 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-
+import linkedinIcon from "./images/linkedin.svg"
+import mailIcon from "./images/mail.svg"
+import projectBgTwo from "./images/79295667-33010600-7f14-11ea-9df8-76269648ba6f.png"
+import projectBgOne from "./images/Screen_Shot_2021-02-28.jpg"
+import projectBgThree from "./images/Screen_Shot_2021-02-28_at16_08.jpg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
-import {
-  faReact,
-  faJsSquare,
-  faHtml5,
-  faCss3Alt,
-  faAtom,
-  faBus,
-  faCoins,
-  faDice,
-} from "@fortawesome/free-solid-svg-icons"
+// import {
+//   faReact,
+//   faJsSquare,
+//   faHtml5,
+//   faCss3Alt,
+//   faAtom,
+//   faBus,
+//   faCoins,
+//   faDice,
+// } from "@fortawesome/free-solid-svg-icons"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -30,14 +34,14 @@ export default {
   name: "a Full-stack Developer",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Building Web",
     //Line 2 For Header
-    "products, brands,",
+    "applications with",
     //Line 3 For Header
-    "and experience",
+    "latest technologies",
   ],
   //   Header Paragraph
-  headerParagraph: "I enjoy buldig web applications.",
+  headerParagraph: "I enjoy programming and solving complex problmes.",
 
   //Contact Email
   // contactEmail: "hello@chetanverma.com",
@@ -51,35 +55,30 @@ export default {
       title: "Blog", //Project Title - Add Your Project Title Here
       para: "Created blog from scrach", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: projectBgOne,
       //Project URL - Add Your Project Url Here
       // url: "http://chetanverma.com/",
       faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      title: "Path Finder Visualization", //Project Title - Add Your Project Title Here
+      para: "A python visualization of the A* path finding algorithm.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: projectBgTwo,
       //Project URL - Add Your Project Url Here
-      // url: "http://chetanverma.com/",
-      faStacks: [faReact, faJsSquare, faHtml5, faCss3Alt],
+      url: "https://github.com/Tomo5524/Path_Finder_Vizualization",
+      faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      title: "Todo-App", //Project Title - Add Your Project Title Here
+      para: "Todo-App created with Vanila JS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: projectBgThree,
       //Project URL - Add Your Project Url Here
-      // url: "http://chetanverma.com/",
-      faStacks: [faReact, faJsSquare, faHtml5, faCss3Alt],
+      url: "https://tomo5524.github.io/ToDoList-APP/",
+      faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
     },
     // {
     //   id: 4, //DO NOT CHANGE THIS (Please)😅
@@ -196,20 +195,33 @@ export default {
   //   Contact Section --------------
 
   contactSubHeading: "Let's create your next experience together",
+  // { img: githubIcon, url: "https://github.com/Tomo5524" },
+  //   {
+  //     img: linkedinIcon,
+  //     url: "#",
+  //   },
+  //   {
+  //     img: mailIcon,
+  //     url: "#",
+  //   },
+  // {
+  //     img: dribbbleIcon,
+  //     url: "https://dribbble.com/chetanverma",
+  //   },
+  //   {
+  //     img: instagramIcon,
+  //     url: "https://www.instagram.com/",
+  //   },
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { imgName: "github", url: "https://github.com/Tomo5524" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      imgName: "linkedin",
+      url: "#",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      imgName: "envelop",
+      url: "#",
     },
   ],
 
