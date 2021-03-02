@@ -9,7 +9,7 @@ import linkedinIcon from "./images/linkedin.svg"
 import mailIcon from "./images/mail.svg"
 import projectBgTwo from "./images/79295667-33010600-7f14-11ea-9df8-76269648ba6f.png"
 import projectBgOne from "./images/Screen_Shot_2021-02-28.jpg"
-import projectBgThree from "./images/Screen_Shot_2021-02-28_at16_08.jpg"
+import projectBgThree from "./images/ScreenShotTodo.jpg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -130,13 +130,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Hi, My name is Tomo Takebuchi. I am a full-stack Engineer. I have some experience with front end (react) and back end (express) along with dev ops skills (digital ocean, nginx and pm2). I also love buliding things with Python and love learning data structure and algorigthm.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "With cutting technology, I am eager to solve a lot of problems people run into on a daily basis. I truly believe that one little groundbreakng product can make the world marginally a better place.",
+  // aboutParaThree:
+  //   "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // aboutImage:
+  //   "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
   //   End About Section ---------------------
 

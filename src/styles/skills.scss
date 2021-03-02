@@ -11,25 +11,26 @@
 
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
     grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .skill {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      flex-direction: row;
+      // align-items: center;
+      // text-align: center;
       img {
-        height: 3rem;
+        // height: 3rem;
+        margin: auto;
       }
       p {
         font-size: 14px;
@@ -37,3 +38,40 @@
     }
   }
 }
+
+.icon-skill {
+  padding: 0 10px;
+}
+
+// .icon-div {
+//   display: flex;
+//   align-items: center;
+//   flex-wrap: wrap;
+//   @include media(">=phone", "<lgphone") {
+//     flex-basis: 25%;
+//   }
+//   @include media(">=lgphone", "<tablet") {
+//     flex-basis: 33%;
+//   }
+//   @include media(">=tablet", "<desktop") {
+//     flex-basis: 100%;
+//   }
+//   // flex-grow: 1;
+//   // display: grid;
+//   // grid-template-columns: 1fr;
+//   // grid-auto-flow: column;
+//   // align-items: center;
+//   // @include media(">=phone", "<lgphone") {
+//   //   grid-template-columns: 1fr 1fr 1fr 1fr;
+//   // }
+//   // @include media(">=lgphone", "<tablet") {
+//   //   grid-template-columns: 1fr 1fr 1fr;
+//   // }
+//   // @include media(">=tablet", "<desktop") {
+//   //   grid-template-columns: 1fr;
+//   // }
+// }
+
+// .py-img {
+//   font-size: 12px;
+// }

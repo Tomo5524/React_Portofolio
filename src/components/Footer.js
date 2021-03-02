@@ -62,7 +62,7 @@ const Footer = () => {
               paddingTop: "10px",
             }}
           >
-            Made With <icon>❤</icon> by <a href="#">Tomo Takebuchi</a>
+            Made With <icon>❤</icon> by Tomo Takebuchi
           </span>
         </div>
       </div>
