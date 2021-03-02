@@ -12,6 +12,7 @@ import {
   faJsSquare,
   faPython,
 } from "@fortawesome/free-brands-svg-icons"
+import reactIcon from "../images/react-2.svg"
 import mongodbIcon from "../images/mongodb-icon-1.svg"
 import saasIcon from "../images/sass-1.svg"
 import cssIcon from "../images/css3.svg"
@@ -44,93 +45,58 @@ const Skills = () => {
           <div className="skills-grid">
             {/* <Fade bottom cascade> */}
             <div className="skill icon-div">
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 icon={faReact}
-                size="2x"
                 style={{
                   color: "#61DBFB",
                 }}
                 className="icon-skill"
-              />
+              /> */}
+              <div className="skill icon-div">
+                <img src={reactIcon} alt="Python" className="icon-skill" />
+              </div>
             </div>
             <div className="skill icon-div">
-              <img
-                src={pythonIcon}
-                alt="Python"
-                width="32"
-                className="icon-skill"
-              />
+              <img src={pythonIcon} alt="Python" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img
-                src={jsIcon}
-                alt="Javascript"
-                width="32"
-                className="icon-skill"
-              />
+              <img src={jsIcon} alt="Javascript" className="icon-skill" />
             </div>
             <div className="skill icon-div">
               <img
                 src={nodeIcon}
                 alt="Node.js"
-                width="52"
                 style={{ fill: "inherit" }}
                 className="icon-skill"
               />
             </div>
             <div className="skill icon-div">
-              <img
-                src={html5Icon}
-                alt="html5"
-                width="32"
-                className="icon-skill"
-              />
+              <img src={html5Icon} alt="html5" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img src={cssIcon} alt="css" width="52" className="icon-skill" />
+              <img src={cssIcon} alt="css" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img
-                src={mongodbIcon}
-                alt="mongodb"
-                width="52"
-                className="icon-skill"
-              />
+              <img src={mongodbIcon} alt="mongodb" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img
-                src={saasIcon}
-                alt="saas"
-                width="52"
-                className="icon-skill"
-              />
+              <img src={saasIcon} alt="saas" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img
-                src={bootstrapIcon}
-                alt="Bootstrap"
-                width="52"
-                className="icon-skill"
-              />
+              <img src={bootstrapIcon} alt="Bootstrap" className="icon-skill" />
             </div>
             <div className="skill icon-div">
               <img
                 src={digitaloceanIcon}
                 alt="digitalocean"
-                width="52"
                 className="icon-skill"
               />
             </div>
             <div className="skill icon-div">
-              <img src={pm2Icon} alt="pm2" width="52" className="icon-skill" />
+              <img src={pm2Icon} alt="pm2" className="icon-skill" />
             </div>
             <div className="skill icon-div">
-              <img
-                src={nginxIcon}
-                alt="nginx"
-                width="52"
-                className="icon-skill"
-              />
+              <img src={nginxIcon} alt="nginx" className="icon-skill" />
             </div>
             {/* <img
               src={nginxIcon}
