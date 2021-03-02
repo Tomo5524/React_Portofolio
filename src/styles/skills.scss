@@ -42,12 +42,12 @@
 .icon-skill {
   padding: 0 10px;
   width: 32px;
-  @include media(">=phone", "<lgphone") {
-    width: 14px;
-  }
-  @include media(">=tablet", "<desktop") {
-    width: 32px;
-  }
+  // @include media(">=phone", "<lgphone") {
+  //   width: 14px;
+  // }
+  // @include media(">=tablet", "<desktop") {
+  //   width: 32px;
+  // }
 }
 
 // .icon-div {
