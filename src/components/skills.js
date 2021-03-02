@@ -53,7 +53,7 @@ const Skills = () => {
                 className="icon-skill"
               /> */}
               <div className="skill icon-div">
-                <img src={reactIcon} alt="Python" className="icon-skill" />
+                <img src={reactIcon} alt="React" className="icon-skill" />
               </div>
             </div>
             <div className="skill icon-div">
@@ -66,7 +66,12 @@ const Skills = () => {
               <img
                 src={nodeIcon}
                 alt="Node.js"
-                style={{ fill: "inherit" }}
+                style={{
+                  fill: "inherit",
+                  backgroundColor: "#EEEDED",
+                  padding: "5px",
+                  width: "50px",
+                }}
                 className="icon-skill"
               />
             </div>
