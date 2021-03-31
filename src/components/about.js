@@ -11,6 +11,7 @@ const About = () => {
             <Fade bottom cascade>
               <h1>About Me</h1>
             </Fade>
+            {/* add fade here */}
             <p>
               {data.aboutParaOne}
               <br></br>

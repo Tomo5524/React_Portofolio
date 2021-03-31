@@ -24,6 +24,7 @@ import html5Icon from "../images/html5.svg"
 import jsIcon from "../images/logo-javascript.svg"
 import pythonIcon from "../images/python-5.svg"
 import nginxIcon from "../images/nginx.svg"
+import linuxIcon from "../images/linux-tux.svg"
 
 // prpbably need to hard code all stacks
 
@@ -43,80 +44,92 @@ const Skills = () => {
               </div>
             ))} */}
           <div className="skills-grid">
-            {/* <Fade bottom cascade> */}
-            <div className="skill icon-div">
-              {/* <FontAwesomeIcon
+            <Fade bottom cascade>
+              <div className="skill icon-div">
+                {/* <FontAwesomeIcon
                 icon={faReact}
                 style={{
                   color: "#61DBFB",
                 }}
                 className="icon-skill"
               /> */}
-              <div className="skill icon-div">
-                <img src={reactIcon} alt="React" className="icon-skill" />
+                <div className="skill icon-div">
+                  <img src={reactIcon} alt="React" className="icon-skill" />
+                </div>
               </div>
-            </div>
-            <div className="skill icon-div">
-              <img src={pythonIcon} alt="Python" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={jsIcon} alt="Javascript" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img
-                src={nodeIcon}
-                alt="Node.js"
-                style={{
-                  fill: "inherit",
-                  backgroundColor: "#EEEDED",
-                  padding: "5px",
-                  width: "50px",
-                }}
-                className="icon-skill"
-              />
-            </div>
-            <div className="skill icon-div">
-              <img src={html5Icon} alt="html5" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={cssIcon} alt="css" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={mongodbIcon} alt="mongodb" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={saasIcon} alt="saas" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={bootstrapIcon} alt="Bootstrap" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img
-                src={digitaloceanIcon}
-                alt="digitalocean"
-                className="icon-skill"
-              />
-            </div>
-            <div className="skill icon-div">
-              <img src={pm2Icon} alt="pm2" className="icon-skill" />
-            </div>
-            <div className="skill icon-div">
-              <img src={nginxIcon} alt="nginx" className="icon-skill" />
-            </div>
-            {/* <img
+              <div className="skill icon-div">
+                <img src={pythonIcon} alt="Python" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img src={jsIcon} alt="Javascript" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img
+                  src={nodeIcon}
+                  alt="Node.js"
+                  style={{
+                    fill: "inherit",
+                    backgroundColor: "#EEEDED",
+                    padding: "5px",
+                    width: "50px",
+                  }}
+                  className="icon-skill"
+                />
+              </div>
+              <div className="skill icon-div">
+                {/* <img src={html5Icon} alt="html5" className="icon-skill" /> */}
+                <img
+                  src={html5Icon}
+                  alt="html5"
+                  style={{
+                    width: "30px",
+                  }}
+                  className="icon-skill"
+                />
+              </div>
+              <div className="skill icon-div">
+                <img src={cssIcon} alt="css" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img src={mongodbIcon} alt="mongodb" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img
+                  src={bootstrapIcon}
+                  alt="Bootstrap"
+                  className="icon-skill"
+                />
+              </div>
+              <div className="skill icon-div">
+                <img src={linuxIcon} alt="linux" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img
+                  src={digitaloceanIcon}
+                  alt="digitalocean"
+                  className="icon-skill"
+                />
+              </div>
+              <div className="skill icon-div">
+                <img src={pm2Icon} alt="pm2" className="icon-skill" />
+              </div>
+              <div className="skill icon-div">
+                <img src={nginxIcon} alt="nginx" className="icon-skill" />
+              </div>
+              {/* <img
               src={nginxIcon}
               alt="nginx"
               width="52"
               className="icon-skill"
             /> This wrong */}
 
-            {/* <img
+              {/* <img
               width="32"
               alt="CSS3 logo and wordmark"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/256px-CSS3_logo_and_wordmark.svg.png"
             /> */}
 
-            {/* <FontAwesomeIcon
+              {/* <FontAwesomeIcon
               icon={faCss3Alt}
               size="2x"
               style={{
@@ -124,8 +137,8 @@ const Skills = () => {
               }}
               className="icon-skill"
             /> */}
-            {/* </div> */}
-            {/* </Fade> */}
+              {/* </div> */}
+            </Fade>
           </div>
           {/* </div> */}
         </div>

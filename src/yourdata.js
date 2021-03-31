@@ -11,6 +11,8 @@ import projectBgTwo from "./images/79295667-33010600-7f14-11ea-9df8-76269648ba6f
 import projectBgOne from "./images/Screen_Shot_2021-02-28.jpg"
 import projectBgThree from "./images/ScreenShotTodo.jpg"
 // Social Icon
+import projectBgFour from "./images/ScreenShotNaturalDisasterTracker.png"
+
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
@@ -80,17 +82,16 @@ export default {
       url: "https://tomo5524.github.io/ToDoList-APP/",
       faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
     },
-    // {
-    //   id: 4, //DO NOT CHANGE THIS (Please)😅
-    //   title: "Project Four", //Project Title - Add Your Project Title Here
-    //   para:
-    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-    //   //Project Image - Add Your Project Image Here
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    //   //Project URL - Add Your Project Url Here
-    //   url: "http://chetanverma.com/",
-    // },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Natural-Disaster-Tracker", //Project Title - Add Your Project Title Here
+      para:
+        "Keep track of all natural disasters all around the world with NASA API", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: projectBgFour,
+      //Project URL - Add Your Project Url Here
+      url: "https://tomo5524.github.io/disaster-tracker/",
+    },
     // {
     //   id: 5, //DO NOT CHANGE THIS (Please)😅
     //   title: "Project Five", //Project Title - Add Your Project Title Here
