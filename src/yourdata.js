@@ -12,7 +12,7 @@ import projectBgOne from "./images/Screen_Shot_2021-02-28.jpg"
 import projectBgThree from "./images/ScreenShotTodo.jpg"
 // Social Icon
 import projectBgFour from "./images/ScreenShotNaturalDisasterTracker.png"
-import projectBgFive from "./images/MERN-ChatAPP-Image"
+import projectBgFive from "./images/MERN-ChatAPP-Image.png"
 
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -96,7 +96,7 @@ export default {
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "MERN-Chat-App", //Project Title - Add Your Project Title Here
-      para: "Real time chat app built with MERN stack", // Add Your Service Type Here
+      para: "Real-time chat app built with MERN stack", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: projectBgFive,
       //Project URL - Add Your Project Url Here
