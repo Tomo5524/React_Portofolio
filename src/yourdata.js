@@ -12,6 +12,7 @@ import projectBgOne from "./images/Screen_Shot_2021-02-28.jpg"
 import projectBgThree from "./images/ScreenShotTodo.jpg"
 // Social Icon
 import projectBgFour from "./images/ScreenShotNaturalDisasterTracker.png"
+import projectBgFive from "./images/MERN-ChatAPP-Image"
 
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -92,17 +93,15 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://tomo5524.github.io/disaster-tracker/",
     },
-    // {
-    //   id: 5, //DO NOT CHANGE THIS (Please)😅
-    //   title: "Project Five", //Project Title - Add Your Project Title Here
-    //   para:
-    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-    //   //Project Image - Add Your Project Image Here
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    //   //Project URL - Add Your Project Url Here
-    //   url: "http://chetanverma.com/",
-    // },
+    {
+      id: 5, //DO NOT CHANGE THIS (Please)😅
+      title: "MERN-Chat-App", //Project Title - Add Your Project Title Here
+      para: "Real time chat app built with MERN stack", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: projectBgFive,
+      //Project URL - Add Your Project Url Here
+      url: "https://mern-realtime-chat-app.netlify.app/",
+    },
     // {
     //   id: 6, //DO NOT CHANGE THIS (Please)😅
     //   title: "Project Six", //Project Title - Add Your Project Title Here
@@ -131,9 +130,9 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Hi, My name is Tomo Takebuchi. I am a full-stack Engineer. I have some experience with front end (react) and back end (express) along with dev ops skills (digital ocean, nginx and pm2). I also love buliding things with Python and love learning data structure and algorigthm.",
+    "Hi, My name is Tomo Takebuchi. I am a full-stack Engineer. I have some experience with front end (React) and back end (Express) along with dev ops skills (Digitalocean, Nginx and Pm2). I also love building things with Python and love learning data structure and algorigthm.",
   aboutParaTwo:
-    "With cutting technology, I am eager to solve a lot of problems people run into on a daily basis. I truly believe that one little groundbreakng product can make the world marginally a better place.",
+    "With cutting technology, I am eager to solve a lot of problems people run into on a daily basis. I truly believe that one little groundbreaking product can make the world marginally a better place.",
   // aboutParaThree:
   //   "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   // aboutImage:
