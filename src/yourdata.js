@@ -44,7 +44,7 @@ export default {
     "latest technologies",
   ],
   //   Header Paragraph
-  headerParagraph: "I enjoy programming and solving complex problmes.",
+  headerParagraph: "I enjoy programming and solving complex problems.",
 
   //Contact Email
   // contactEmail: "hello@chetanverma.com",
@@ -53,15 +53,24 @@ export default {
 
   // Work Section ------------------------
   projects: [
+    // {
+    //   id: 1, //DO NOT CHANGE THIS (Please)😅
+    //   title: "Blog", //Project Title - Add Your Project Title Here
+    //   para: "Created blog from scrach", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc: projectBgOne,
+    //   //Project URL - Add Your Project Url Here
+    //   // url: "http://chetanverma.com/",
+    //   faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
+    // },
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Blog", //Project Title - Add Your Project Title Here
-      para: "Created blog from scrach", // Add Your Service Type Here
+      title: "MERN-Chat-App", //Project Title - Add Your Project Title Here
+      para: "Real-time chat app built with MERN stack", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: projectBgOne,
+      imageSrc: projectBgFive,
       //Project URL - Add Your Project Url Here
-      // url: "http://chetanverma.com/",
-      faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
+      url: "https://mern-realtime-chat-app.netlify.app/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -75,16 +84,6 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Todo-App", //Project Title - Add Your Project Title Here
-      para: "Todo-App created with Vanila JS", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: projectBgThree,
-      //Project URL - Add Your Project Url Here
-      url: "https://tomo5524.github.io/ToDoList-APP/",
-      faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
-    },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "Natural-Disaster-Tracker", //Project Title - Add Your Project Title Here
       para:
         "Keep track of all natural disasters all around the world with NASA API", // Add Your Service Type Here
@@ -94,14 +93,24 @@ export default {
       url: "https://tomo5524.github.io/disaster-tracker/",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "MERN-Chat-App", //Project Title - Add Your Project Title Here
-      para: "Real-time chat app built with MERN stack", // Add Your Service Type Here
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Todo-App", //Project Title - Add Your Project Title Here
+      para: "Todo-App created with Vanila JS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: projectBgFive,
+      imageSrc: projectBgThree,
       //Project URL - Add Your Project Url Here
-      url: "https://mern-realtime-chat-app.netlify.app/",
+      url: "https://tomo5524.github.io/ToDoList-APP/",
+      faStacks: ["faReact", "faJsSquare", "faHtml5", "faCss3Alt"],
     },
+    // {
+    //   id: 5, //DO NOT CHANGE THIS (Please)😅
+    //   title: "MERN-Chat-App", //Project Title - Add Your Project Title Here
+    //   para: "Real-time chat app built with MERN stack", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc: projectBgFive,
+    //   //Project URL - Add Your Project Url Here
+    //   url: "https://mern-realtime-chat-app.netlify.app/",
+    // },s
     // {
     //   id: 6, //DO NOT CHANGE THIS (Please)😅
     //   title: "Project Six", //Project Title - Add Your Project Title Here
