@@ -26,9 +26,9 @@ const Footer = () => {
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
+          {/* <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
-          </a>
+          </a> */}
           <div className="social-icons">
             {data.social.map(socialLink => (
               <a
@@ -56,6 +56,23 @@ const Footer = () => {
                 />
               </a>
             ))}
+            {/* for mail */}
+            <a
+              href={`mailto:${data.contactEmail}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                padding: "10px",
+              }}
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                size="2x"
+                style={{
+                  color: "inherit",
+                }}
+              />
+            </a>
           </div>
           <span
             style={{

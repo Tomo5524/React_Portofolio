@@ -47,7 +47,7 @@ export default {
   headerParagraph: "I enjoy programming and solving complex problems.",
 
   //Contact Email
-  // contactEmail: "hello@chetanverma.com",
+  contactEmail: "tomo4devtechwork@gmail.com",
 
   // End Header Details -----------------------
 
@@ -226,15 +226,13 @@ export default {
     { imgName: "github", url: "https://github.com/Tomo5524" },
     {
       imgName: "linkedin",
-      url: "#",
+      url: "https://www.linkedin.com/in/tomoki-takebuchi-501065135/",
     },
-    {
-      imgName: "envelop",
-      url: "#",
-    },
+    // {
+    //   imgName: "envelop",
+    //   url: "tomo4devtechwork@gmail.com",
+    // },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
