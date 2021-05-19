@@ -139,7 +139,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Hi, My name is Tomo Takebuchi. I am a self-taught full-stack Engineer. I have some experience with front end (React) and back end (Express) along with dev ops skills (Digitalocean, Nginx and Pm2). I also love building things with Python and love learning data structure and algorigthm.",
+    "Hi, My name is Tomo Takebuchi. I am a self-taught full-stack Engineer. I have some experience with front end (React) and back end (Express, Node js) along with dev ops skills (Digitalocean, Nginx and Pm2). I also love building things with Python and love learning data structure and algorigthm.",
   aboutParaTwo:
     "With cutting technology, I am eager to solve a lot of problems people run into on a daily basis. I truly believe that one little groundbreaking product can make the world marginally a better place.",
   // aboutParaThree:
